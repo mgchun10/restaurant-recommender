@@ -1,0 +1,17 @@
+raw.txt
+
+Source:
+All datasets in this folder were downloaded from the official Yelp Open Dataset:
+https://www.yelp.com/dataset
+
+Files:
+restaurant-recommender/
+├── data/
+│   └── raw/
+│       ├── yelp_academic_dataset_business.json
+│       ├── yelp_academic_dataset_review.json
+│       └── yelp_academic_dataset_user.json
+
+Notes:
+All datasets are large and are excluded from Git using `.gitignore`
+Processed datasets are in /data/processed/
